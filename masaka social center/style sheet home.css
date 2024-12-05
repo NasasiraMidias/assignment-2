@@ -1,0 +1,115 @@
+
+body {
+    font-family: bookman old style
+    color: #333;
+	    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+		background-image: url('background.jpeg');
+    background-size: cover;  
+    background-position: center;  
+    background-repeat: no-repeat
+}
+header {
+    background-color: #4CAF50; 
+    text-align: center;
+    padding: 15px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+.hero {
+    background-color: #8BC34A; 
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #FFEB3B; 
+    color: #333;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.btn-primary:hover {
+    background-color: #FBC02D; 
+}
+section {
+    padding: 40px 20px;
+    margin: 0 auto;
+    max-width: 1200px;
+    background-color: skyblue;
+    margin-bottom: 30px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+h2 {
+    font-size: 28px;
+    margin-bottom: 15px;
+}
+ul {
+    list-style-type: none;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+footer {
+    background-color: pink;
+    color: black;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
+.about-vision-mission {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 20px;
+    background-color: #fafafa;
+}
+
+.about-vision-mission .vision,
+.about-vision-mission .mission {
+    flex: 1;
+    text-align: center;
+    padding: 20px;
+}
+
+.about-vision-mission h3 {
+    color: #2E3B4E;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+.about-vision-mission p {
+    font-size: 16px;
+    color: black;
+}
+
+footer p {
+    font-size: 16px;
+}
